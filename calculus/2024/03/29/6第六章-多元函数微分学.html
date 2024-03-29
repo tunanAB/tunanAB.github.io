@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+    }
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    
+<title>第六章、多元函数微分学</title>
+<!-- <link rel="icon" href="../favicon.svg" type="image/svg+xml"/> -->
+<!-- <link rel="icon" href="../favicon.png" type="image/png"  />   -->
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://wsttask.github.io/styles/font.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="https://wsttask.github.io/styles/post.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="https://wsttask.github.io/styles/post_mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="https://wsttask.github.io/styles/navigatebar.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="https://wsttask.github.io/styles/navigatebar_mobile.css">
+        <link rel="stylesheet" href="https://wsttask.github.io/theme/highlight.css">
+    </head>
+    <body>
+        <div class="navigatebar">
+    <div class="navigatebar-button">
+        <a href="https://wsttask.github.io/index.html">index</a>
+    </div>
+    <div class="navigatebar-button">
+        <a href="https://wsttask.github.io/tags.html">Tags</a>
+    </div>
+    <div class="navigatebar-button">
+        <a href="https://wsttask.github.io/tasks.html">task</a>
+    </div>
+</div>
+ 
+        <div class="content-area">
+            <div class="title">
+                第六章、多元函数微分学
+            </div>
+            <div class="category-area">
+                「
+                <a href="https://wsttask.github.io/tags.html#calculus">
+                    <div class="category">
+                        calculus
+                    </div>
+                </a>
+                」
+            </div>
+            <div class="char-counter">
+              2024-03-29 1225字
+            </div>
+            <div class="content">
+                <h3 id="多元函数的极限">多元函数的极限</h3>
+
+<p>​	设 $z=f(x,y)$ ，若对任意的 $\epsilon&gt;0$ ，存在 $\delta&gt;0$ ，当 $0&lt;\sqrt{(x-x_0)^2+(y-y_0)^2}&lt;\delta$ 时，有 $\mid f(x,y)-A\mid&lt;\epsilon$ 成立，则称 $A$ 为函数 $f(x,y)$ 当 $(x,y)\to(x_0,y_0)$ 时的极限，记为 $\displaystyle\lim\limits_{\Large{x \rightarrow x_0 \atop y \rightarrow y_0}}f(x,y)=A$</p>
+
+<h3 id="多元函数连续">多元函数连续</h3>
+
+<p>​	设 $z=f(x,y)$ ，且 $(x_0,y_0)\in D$ ，若 $\displaystyle\lim\limits_{\Large{x \rightarrow x_0 \atop y \rightarrow y_0}}f(x,y)=f(x_0,y_0)$ ，称函数 $f(x,y)$ 在 $x_0,y_0$ 处连续。</p>
+
+<blockquote>
+  <p>注意：一维的趋近只有正负两个方向，但是二位的趋近，有无穷个方向</p>
+</blockquote>
+
+<p>&lt;font color=#f00&gt;?，是非线性是方向吗，还是只要线性的接近就可以了？&lt;/font&gt;</p>
+
+<h3 id="偏导数">偏导数</h3>
+
+<p>关于函数 $z=f(x,y)$</p>
+
+<ul>
+  <li>
+    <p>$\Delta z_x=f(x_0+\Delta x,y_0)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处关于 $x$ 的偏增量。</p>
+  </li>
+  <li>$\Delta z_y=f(x_0,y_0+\Delta y)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处关于 $y$ 的偏增量。</li>
+  <li>$\Delta z=f(x_0+\Delta x,y_0+\Delta y)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处的全增量。</li>
+</ul>
+
+<p>下列为函数 $z=f(x,y)$ 在 $(x_0,y_0)$ 点关于 $x$ 的偏导数
+\(\displaystyle\lim_{\Delta x\to0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}=\frac{\partial z}{\partial x}\Large\mid_{(x_0,y_0)}\)
+下列为函数 $z=f(x,y)$ 在 $(x_0,y_0)$ 点关于 $y$ 的偏导数
+\(\displaystyle\lim_{\Delta x\to0}\frac{f(x_0,y_0+\Delta y)-f(x_0,y_0)}{\Delta y}=\frac{\partial z}{\partial y}\Large\mid_{(x_0,y_0)}\)</p>
+
+<h3 id="全微分">全微分</h3>
+
+<p>设 $z=f(x,y)$ ，若 $\Delta z=A\Delta x+B\Delta y+o(\rho)$ ，其中 $\rho=\sqrt{(\Delta x)^2+(\Delta y)^2}$ ，称 $z=f(x,y)$ 在 $(x_0,y_0)$ 处可全微。记 $A\Delta x+B\Delta y=dz$ 或 $dz=Adx+Bdy$</p>
+
+<h3 id="方向导数数二不要求">方向导数（数二不要求）</h3>
+
+            </div>
+        </div>
+    </body>
+</html>

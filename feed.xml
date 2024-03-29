@@ -1,119 +1,463 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://wsttask.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wsttask.github.io/" rel="alternate" type="text/html" /><updated>2024-03-28T15:08:42+08:00</updated><id>https://wsttask.github.io/feed.xml</id><entry><title type="html">移动端浏览器主页</title><link href="https://wsttask.github.io/browser" rel="alternate" type="text/html" title="移动端浏览器主页" /><published>2024-03-28T15:08:30+08:00</published><updated>2024-03-28T15:08:30+08:00</updated><id>https://wsttask.github.io/portal</id><content type="html" xml:base="https://wsttask.github.io/browser"><![CDATA[<h1 id="knowledge">knowledge</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://wsttask.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wsttask.github.io/" rel="alternate" type="text/html" /><updated>2024-03-29T21:01:06+08:00</updated><id>https://wsttask.github.io/feed.xml</id><entry><title type="html">第十章、曲线积分与曲面积分</title><link href="https://wsttask.github.io/2024/03/29/%E7%AC%AC%E5%8D%81%E7%AB%A0-%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86.html" rel="alternate" type="text/html" title="第十章、曲线积分与曲面积分" /><published>2024-03-29T20:50:35+08:00</published><updated>2024-03-29T20:50:35+08:00</updated><id>https://wsttask.github.io/2024/03/29/%E7%AC%AC%E5%8D%81%E7%AB%A0%E3%80%81%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86</id><content type="html" xml:base="https://wsttask.github.io/2024/03/29/%E7%AC%AC%E5%8D%81%E7%AB%A0-%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86.html"><![CDATA[<h5 id="第一类曲线积分">第一类曲线积分</h5>
 
-<h3 id="giteeweb"><a href="https://gitee.com/wsttask/web/tree/master">gitee.web</a></h3>
+<blockquote>
+  <p>可以用来求曲线型构件的质量</p>
+</blockquote>
 
-<h3 id="githubweb"><a href="https://github.com/wsttask/web">github.web</a></h3>
+<p>$\int_Lf(x,y)ds=\int_\alpha^\beta f[\phi(t),\psi(t)]\sqrt{[\phi’(t)]^2+[\psi’(t)]^2}dt \ =\int_\alpha^\beta f[x,\phi(x)]\sqrt{[1+\phi’(x)]^2}dx$</p>
 
-<h3 id="stackoverflow"><a href="https://stackoverflow.com/">stackoverflow</a></h3>
+<p>性质1：（线性性质）</p>
 
-<h1 id="edit">Edit</h1>
+<p>$\forall\alpha,\beta\in R^1 \ \int_L[\alpha f(x,y)+\beta g(x,y)]ds=\alpha\int_Lf(x,y)ds+\beta\int_Lg(x,y)ds$</p>
 
-<h3 id="stackedit"><a href="https://stackedit.cn/app#">stackEdit</a></h3>
+<p>性质2：（积分弧段的可加性）</p>
 
-<h1 id="tanslation">tanslation</h1>
+<p>$\int_Lf(x,y)ds=\int_{L1}f(x,y)ds+\int_{L2}f(x,y)ds$</p>
 
-<h3 id="youdao"><a href="https://m.youdao.com/">youdao</a></h3>
+<h5 id="第二类曲线积分">第二类曲线积分</h5>
 
-<h1 id="chatgpt">ChatGPT</h1>
+<blockquote>
+  <p>用来求变力沿曲线作的功</p>
+</blockquote>
 
-<h3 id="openai"><a href="https://chat.openai.com/">openai</a></h3>
+<p>$\int_L\overrightarrow{F}(x,y)d\overrightarrow{s}=\int_LP(x,y)dx+Q(x,y)dy \ \int_a^b{P[\phi(t),\psi(t)]\phi’(t)+Q[\phi(t),\psi(t)]\psi’(t)}dt$</p>
 
-<h1 id="documentation">Documentation</h1>
+<h5 id="一二类曲线积分之间的联系">一、二类曲线积分之间的联系</h5>
 
-<h3 id="python"><a href="https://docs.python.org/">python</a></h3>
+<p>$\int_LF(x,y)·dr=\int_LF(x,y)·e_Lds$</p>
 
-<h3 id="qt-documentation"><a href="https://doc.qt.io/">Qt Documentation</a></h3>
+<p>$\int_LP(x,y)dx+Q(x,y)dy=\int_L[P(x,y)i+Q(x,y)j]·[cos\alpha i+cos\beta j]ds \ =\int_L[P(x,y)cos\alpha+Q(x,y)cos\beta]ds$</p>
 
-<h3 id="java"><a href="https://docs.oracle.com/">Java</a></h3>
+<h5 id="定理103格林公式">定理10.3：格林公式</h5>
 
-<h1 id="latex">LaTex</h1>
+<p>设平面闭区域$D$的正向边界曲线$\partial D^+$是分段光滑的，函数$P(x,y),Q(x,y)$在$D$上具有一阶连续偏导数，则</p>
 
-<h3 id="latex在线编辑器"><a href="https://www.latexlive.com/">LaTex在线编辑器</a></h3>
+<p>$\iint_\limits{D}(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy=\int_{\partial D^+}P(x,y)dx+Q(x,y)dy$</p>
 
-<h1 id="图形计算器">图形计算器</h1>
+<blockquote>
+  <p>注意平面闭区域$D$的正向边界曲线$\partial D^+$是指逆时针的外曲线，顺时针的内曲线，<strong>两者的和</strong></p>
+</blockquote>
 
-<h3 id="desmos"><a href="https://www.desmos.com/calculator?lang=zh-CN">Desmos</a></h3>
+<p><img src="../images/image-20230401160444415.png" alt="image-20230401160444415" /></p>
 
-<h1 id="wps">WPS</h1>
+<p><img src="../images/image-20230401160112749.png" alt="image-20230401160112749" /></p>
 
-<h3 id="tasks"><a href="https://www.kdocs.cn/l/coVFRqQ7x1UZ">tasks</a></h3>
+<h4 id="二平面曲线积分与路径无关的条件"><font color="green">（二）平面曲线积分与路径无关的条件</font></h4>
 
-<h1 id="搜索引擎">搜索引擎</h1>
+<h5 id="定理104-设g是单连通域overrightarrow-fxypxyqxyin-c1g则以下四个命题等价"><font color="lime">定理10.4</font> 设$G$是单连通域，($\overrightarrow F(x,y)=(P(x,y),Q(x,y))\in C^{(1)}(G)$，则以下<font color="orange">四个命题</font><font color="violet">等价</font>:</h5>
 
-<h3 id="baidu"><a href="https://www.baidu.com/">baidu</a></h3>
+<p>(1)$\forall 分段光滑闭曲线C\subset G,\oint_CPdx+Qdy=0;$</p>
 
-<h1 id="mail">Mail</h1>
+<p>(2)$\int_LPdx+Qdy$在$G$内与路径无关；</p>
 
-<h3 id="outlook"><a href="https://outlook.live.com/mail">outlook</a></h3>
+<p>(3)$\exists u=u(x,y),使du=Pdx+Qdy(\forall(x,y)\in G)$</p>
 
-<h3 id="gmail"><a href="https://mail.google.com/mail">gmail</a></h3>
+<p>(4)<font color="deepskyblue">$在G内，\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$</font></p>
 
-<h1 id="time">TIME</h1>
+<blockquote>
+  <p>定理中的单连通域和P、Q两函数的可导性缺一不可。</p>
+</blockquote>
 
-<h3 id="北京时间"><a href="https://beijing-time.org/">北京时间</a></h3>
+<h4 id="三平面曲线积分基本定理"><font color="green">（三）平面曲线积分基本定理</font></h4>
 
-<h1 id="game">GAME</h1>
+<h5 id="定理105-若uxy是pxydxqxydy在单连通域g上的一个原函数则第二类曲线积分"><font color="lime">定理10.5</font> 若$u(x,y)$是$P(x,y)dx+Q(x,y)dy$在单连通域$G$上的一个原函数，则第二类曲线积分</h5>
 
-<h3 id="aknight"><a href="https://ak.hypergryph.com/">aknight</a></h3>
+\[\int_{A(x_1,y_1)}^{B(x_2,y_2)}P(x,y)dx+Q(x,y)dy=u(x,y)|_{(x_1,y_1)}^{(x_2,y_2)}\]
 
-<h1 id="音标">音标</h1>
+<font color="skyblue">即牛顿莱布尼兹公式</font>
 
-<h3 id="英语兔"><a href="https://www.bilibili.com/video/BV1iV411z7Nj/">英语兔</a></h3>
+<p><img src="../images/image-20230402164222449.png" alt="image-20230402164222449" /></p>
 
-<h1 id="video">video</h1>
+<h4 id="第四节-第一类曲面积分"><font color="doderblue">第四节 第一类曲面积分</font></h4>
 
-<h3 id="bilibili"><a href="https://www.bilibili.com/">bilibili</a></h3>
+<blockquote>
+  <p>求曲面形构件的质量</p>
+</blockquote>
 
-<h3 id="youtube"><a href="https://www.youtube.com/">YouTube</a></h3>
+<p>$\iint\limits_{\sum}f(x,y,z)dS$</p>
 
-<h1 id="nwpu">nwpu</h1>
+<blockquote>
+  <p>只有当函数$f(x,y,z)$在曲面上$\sum$上连续时，曲面积分才存在</p>
+</blockquote>
 
-<h3 id="翱翔门户"><a href="https://ecampus.nwpu.edu.cn/main.html#/Index">翱翔门户</a></h3>
+<font color="deepskyblue">性质</font>
 
-<h3 id="西工大研招网"><a href="https://yzb.nwpu.edu.cn/info/1174/8628.htm">西工大研招网</a></h3>
+<p>1.线性性质</p>
 
-<h3 id="图书馆"><a href="https://ic.nwpu.edu.cn/">图书馆</a></h3>
+<p>2.可加性</p>
 
-<h1 id="中国考试教育网">中国考试教育网</h1>
+<p>3.对称性</p>
 
-<h3 id="四六级查分"><a href="https://cjcx.neea.edu.cn/">四六级查分</a></h3>]]></content><author><name></name></author><category term="portal" /><summary type="html"><![CDATA[knowledge]]></summary></entry><entry><title type="html">Git Commit</title><link href="https://wsttask.github.io/2024/03/28/git-commit.html" rel="alternate" type="text/html" title="Git Commit" /><published>2024-03-28T15:04:17+08:00</published><updated>2024-03-28T15:04:17+08:00</updated><id>https://wsttask.github.io/2024/03/28/git-commit</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/git-commit.html"><![CDATA[<pre><code class="language-cmd">git commit -m "information"
-# 在提交的时候不会提交""
-</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[git commit -m "information" # 在提交的时候不会提交""]]></summary></entry><entry><title type="html">Stackedit</title><link href="https://wsttask.github.io/2024/03/28/stackEdit.html" rel="alternate" type="text/html" title="Stackedit" /><published>2024-03-28T15:03:11+08:00</published><updated>2024-03-28T15:03:11+08:00</updated><id>https://wsttask.github.io/2024/03/28/stackEdit</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/stackEdit.html"><![CDATA[<p>我只用了网页版</p>
+<p>​    如果积分区间是关于某个面对称的，则可以通过对于被积函数对称性的性质，快速解的答案。</p>
+
+<h5 id="定理106-设fxyz是定义在光滑曲面sum上的连续函数sum-zzxyxyin-d_xy函数zzxy在d_xy上具有连续的偏导数则"><font color="blue">定理10.6</font> 设$f(x,y,z)$是定义在光滑曲面$\sum$上的连续函数，$\sum :z=z(x,y),(x,y)\in D_{xy}$，函数$z=z(x,y)$在$D_{xy}$上具有连续的偏导数。则：</h5>
+
+\[\iint\limits_{\sum}f(x,y,z)dS=\iint\limits_{D_{xy}}f(x,y,z(x,y))·\sqrt{1+z_x^2(x,y)+z_y^2(x,y)}dxdy \\ =\iint\limits_{D_{yz}}f(x(y,z),y,z)·\sqrt{1+x_y^2(y,z)+x_z^2(y,z)}dydz\\ =\iint\limits_{D_{xz}}f(x,y(x,z),z)·\sqrt{1+y_x^2(x,z)+y_z^2(x,z)}dydz\]]]></content><author><name></name></author><summary type="html"><![CDATA[第一类曲线积分]]></summary></entry><entry><title type="html">第八章、重积分</title><link href="https://wsttask.github.io/calculus/2024/03/29/8%E7%AC%AC%E5%85%AB%E7%AB%A0-%E9%87%8D%E7%A7%AF%E5%88%86.html" rel="alternate" type="text/html" title="第八章、重积分" /><published>2024-03-29T20:50:06+08:00</published><updated>2024-03-29T20:50:06+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/29/8%E7%AC%AC%E5%85%AB%E7%AB%A0-%E9%87%8D%E7%A7%AF%E5%88%86</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/29/8%E7%AC%AC%E5%85%AB%E7%AB%A0-%E9%87%8D%E7%A7%AF%E5%88%86.html"><![CDATA[]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">第七章、微分方程</title><link href="https://wsttask.github.io/calculus/2024/03/29/7%E7%AC%AC%E4%B8%83%E7%AB%A0-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.html" rel="alternate" type="text/html" title="第七章、微分方程" /><published>2024-03-29T20:49:06+08:00</published><updated>2024-03-29T20:49:06+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/29/7%E7%AC%AC%E4%B8%83%E7%AB%A0-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/29/7%E7%AC%AC%E4%B8%83%E7%AB%A0-%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.html"><![CDATA[]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">第六章、多元函数微分学</title><link href="https://wsttask.github.io/calculus/2024/03/29/6%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6.html" rel="alternate" type="text/html" title="第六章、多元函数微分学" /><published>2024-03-29T20:47:36+08:00</published><updated>2024-03-29T20:47:36+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/29/6%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/29/6%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6.html"><![CDATA[<h3 id="多元函数的极限">多元函数的极限</h3>
+
+<p>​	设 $z=f(x,y)$ ，若对任意的 $\epsilon&gt;0$ ，存在 $\delta&gt;0$ ，当 $0&lt;\sqrt{(x-x_0)^2+(y-y_0)^2}&lt;\delta$ 时，有 $\mid f(x,y)-A\mid&lt;\epsilon$ 成立，则称 $A$ 为函数 $f(x,y)$ 当 $(x,y)\to(x_0,y_0)$ 时的极限，记为 $\displaystyle\lim\limits_{\Large{x \rightarrow x_0 \atop y \rightarrow y_0}}f(x,y)=A$</p>
+
+<h3 id="多元函数连续">多元函数连续</h3>
+
+<p>​	设 $z=f(x,y)$ ，且 $(x_0,y_0)\in D$ ，若 $\displaystyle\lim\limits_{\Large{x \rightarrow x_0 \atop y \rightarrow y_0}}f(x,y)=f(x_0,y_0)$ ，称函数 $f(x,y)$ 在 $x_0,y_0$ 处连续。</p>
+
+<blockquote>
+  <p>注意：一维的趋近只有正负两个方向，但是二位的趋近，有无穷个方向</p>
+</blockquote>
+
+<p>&lt;font color=#f00&gt;?，是非线性是方向吗，还是只要线性的接近就可以了？&lt;/font&gt;</p>
+
+<h3 id="偏导数">偏导数</h3>
+
+<p>关于函数 $z=f(x,y)$</p>
 
 <ul>
-  <li>advantage
+  <li>
+    <p>$\Delta z_x=f(x_0+\Delta x,y_0)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处关于 $x$ 的偏增量。</p>
+  </li>
+  <li>$\Delta z_y=f(x_0,y_0+\Delta y)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处关于 $y$ 的偏增量。</li>
+  <li>$\Delta z=f(x_0+\Delta x,y_0+\Delta y)$ 为函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处的全增量。</li>
+</ul>
+
+<p>下列为函数 $z=f(x,y)$ 在 $(x_0,y_0)$ 点关于 $x$ 的偏导数
+\(\displaystyle\lim_{\Delta x\to0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}=\frac{\partial z}{\partial x}\Large\mid_{(x_0,y_0)}\)
+下列为函数 $z=f(x,y)$ 在 $(x_0,y_0)$ 点关于 $y$ 的偏导数
+\(\displaystyle\lim_{\Delta x\to0}\frac{f(x_0,y_0+\Delta y)-f(x_0,y_0)}{\Delta y}=\frac{\partial z}{\partial y}\Large\mid_{(x_0,y_0)}\)</p>
+
+<h3 id="全微分">全微分</h3>
+
+<p>设 $z=f(x,y)$ ，若 $\Delta z=A\Delta x+B\Delta y+o(\rho)$ ，其中 $\rho=\sqrt{(\Delta x)^2+(\Delta y)^2}$ ，称 $z=f(x,y)$ 在 $(x_0,y_0)$ 处可全微。记 $A\Delta x+B\Delta y=dz$ 或 $dz=Adx+Bdy$</p>
+
+<h3 id="方向导数数二不要求">方向导数（数二不要求）</h3>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[多元函数的极限]]></summary></entry><entry><title type="html">定积分及其应用</title><link href="https://wsttask.github.io/calculus/2024/03/29/5%E7%AC%AC%E4%BA%94%E7%AB%A0-%E5%AE%9A%E7%A7%AF%E5%88%86%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="定积分及其应用" /><published>2024-03-29T18:48:41+08:00</published><updated>2024-03-29T18:48:41+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/29/5%E7%AC%AC%E4%BA%94%E7%AB%A0-%E5%AE%9A%E7%A7%AF%E5%88%86%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/29/5%E7%AC%AC%E4%BA%94%E7%AB%A0-%E5%AE%9A%E7%A7%AF%E5%88%86%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8.html"><![CDATA[<h3 id="定积分定义">定积分定义</h3>
+
+<p>若 $\displaystyle\lim_{\lambda\rightarrow0}\sum_{i=1}^{n}f(\xi_i)\Delta x_i$ 存在，称 $f(x)$ 在 $[a,b]$ 上可积 。</p>
+
+<h3 id="定积分的数列和形式">定积分的数列和形式<font color="red">*</font></h3>
+
+<ul>
+  <li>
+    <p>$\displaystyle\lim_{n\to\infty}\frac{1}{n}\sum_{i=1}^{n}f\left(\frac{i}{n}\right)=\int_{0}^{1}f\left(x\right)\mathrm{d}x$</p>
+  </li>
+  <li>
+    <p>$\displaystyle\lim_{n\to\infty}\frac{1}{n}\sum_{i=1}^{kn}f\left(\frac{i}{n}\right)=\int_{0}^{k}f\left(x\right)dx$</p>
+  </li>
+  <li>
+    <p>$\displaystyle\lim_{n\to\infty}\frac{b-a}{n}\sum_{i=1}^{n}f\left[a+\frac{i}{n}\left(b-a\right)\right]=\int_{a}^{b}f\left(x\right)dx$</p>
+  </li>
+</ul>
+
+<h3 id="柯西不等式">柯西不等式<font color="red">*</font></h3>
+
+<p>设 $f(x),g(x)$ 在 $[a,b]$ 上连续，则
+\(\left(\int_a^bf\left(x\right)g\left(x\right)\mathrm{d}x\right)^2\leqslant\int_a^bf^2\left(x\right)\mathrm{d}x\int_a^bg^2\left(x\right)\mathrm{d}x\)</p>
+<h3 id="三角函数定积分的性质">三角函数定积分的性质<font color="red">*</font></h3>
+
+<ul>
+  <li>
+    <p>$\int_0^{\frac{\pi}{2}}f\left(\sin x\right)\mathrm{d}x=\int_0^{\frac{\pi}{2}}f\left(\cos x\right)\mathrm{d}x,$</p>
+  </li>
+  <li>$I_{n}=\int_{0}^{\frac{\pi}{2}}\sin^{n}x\mathrm{d}x=\int_{0}^{\frac{\pi}{2}}\cos^{n}x\mathrm{d}x$</li>
+  <li>其中 $I_{2k}=\frac{\left(2k-1\right)!!}{\left(2k\right)!!}\cdot\frac{\pi}{2},I_{2k+1}=\frac{\left(2k\right)!!}{\left(2k+1\right)!!}.$</li>
+  <li>$I_n=\frac{n-1}{n}I_{n-2}$</li>
+  <li>$I_0=\frac\pi2$</li>
+  <li>$I_1=1$</li>
+  <li>$I_2=\frac{\pi}{4}$</li>
+</ul>
+
+<h3 id="积分基本定理">积分基本定理</h3>
+
+<p><strong>定理1：</strong> $\text{设 }f\left(x\right)\in C\left[a,b\right],\text{令 }\Phi\left(x\right)=\int_{a}^{x}f\left(t\right)\mathrm{d}t,\text{则 }\Phi^{\prime}\left(x\right)=f\left(x\right).$</p>
+
+<p><strong>定理2：(牛顿一莱布尼茨公式)</strong> $设f(x)\in C[a,b],且 F(x)为f(x)的一个原函数,则 $
+\(\int_a^bf(x) dx=F(b)-F(a)\)</p>
+
+<h3 id="常用定积分结论">常用定积分结论<font color="red">*</font></h3>
+
+<ul>
+  <li>$\int_{0}^{\frac{\pi}{2}}sinx\,dx=\int_{0}^{\frac{\pi}{2}}cosx\,dx=1$</li>
+  <li>$\int_{0}^{a}\sqrt{a^{2}-x^{2}}dx=\frac{\pi}{4}a^{2}$</li>
+</ul>
+
+<h3 id="积分方法">积分方法</h3>
+
+<ol>
+  <li><strong>换元积分法</strong>，其中 $\varphi(t)$ 单调连续可导，且 $\varphi(\alpha)=a,\quad\varphi(\beta)=b$</li>
+</ol>
+
+<p><strong>$\int_{a}^{b}f\left(x\right)\mathrm{d}x=\int_{a}^{\beta}f\left[\varphi\left(t\right)\right]\varphi^{\prime}\left(t\right)\mathrm{d}t$</strong></p>
+
+<ol>
+  <li><strong>分布积分法</strong></li>
+</ol>
+
+<p>$\text{设 }u(x),v(x)\text{ 在}[a,b]\text{上连续可导,则}\int_a^bu\operatorname{d}v=vu\mid_a^b-\int_a^bv\operatorname{d}u.$</p>
+
+<h3 id="变上限积分函数求导">变上限积分函数求导<font color="red">*</font></h3>
+
+<ul>
+  <li>$\frac{d}{dx}\int_{a}^{\psi(x)}f(t)dt=f[\psi(x)]\psi’(x)$</li>
+  <li>$\frac{d}{dx}\int_{\psi_1(x)}^{\psi_2(x)}f(t)dt=f[\psi_2(x)]\psi_2’(x)-f[\psi_1(x)]\psi_1’(x)$</li>
+</ul>
+
+<p>证明</p>
+
+<p>$\frac{du}{dx}\frac{d}{du}\int_{a}^{u}f(t)dt$</p>
+
+<blockquote>
+  <p>相当于复合函数求导而已</p>
+</blockquote>
+
+<h3 id="广义积分敛散性的概念">广义积分敛散性的概念</h3>
+
+<p><b>定义1：</b></p>
+
+<p>设$f\left(x\right)\in C\left[a,+\infty\right),F\left(x\right)$为$f\left(x\right)$的一个原函数
+\(\int_a^bf\left(x\right)dx=F\left(b\right)-F\left(a\right).\)</p>
+
+<p>若$\displaystyle\lim_{b\to+\infty}\left[F(b)-F(a)\right]=A$,称广义积分$\int _a^{+ \infty}f( x)dx$收敛于$A$,记为$\int _a^{+ \infty}f\left ( x\right )dx=A$</p>
+
+<p>若$\displaystyle\lim_{b\to+\infty}\left[F\left(b\right)-F\left(a\right)\right]$不存在，称广义积分 $\int _a^{+ \infty}f(x)dx$ 发散</p>
+
+<p><b>定义2：</b></p>
+
+<p>设$f\left(x\right)\in C\left(-\infty,a\right],F\left(x\right)$为$f\left(x\right)$的一个原函数
+\(\int_b^af\left(x\right)dx=F\left(a\right)-F\left(b\right).\)</p>
+
+<p>若$\displaystyle\lim_{b\to-\infty}\left[F(a)-F(b)\right]=A$,称广义积分$\int_{-\infty}^{a}f(x)dx$收敛于$A$,记为$\int_{-\infty}^{a}f\left ( x\right )dx=A$</p>
+
+<p>若$\displaystyle\lim_{b\to-\infty}\left[F(a)-F(b)\right]$不存在，称广义积分  $\int_{-\infty}^{a}f(x)dx$ 发散</p>
+
+<h3 id="γ函数">Γ函数</h3>
+
+<h5 id="γ函数的定义">Γ函数的定义</h5>
+
+\[\Gamma(\alpha)=\displaystyle\int_{0}^{+\infty}x^{\alpha-1}e^{-x}dx\quad(\alpha&gt;0)\]
+
+<h5 id="γ函数的性质">Γ函数的性质</h5>
+
+<ul>
+  <li>$\Gamma(\alpha+1)=\alpha\Gamma(\alpha)$</li>
+  <li>$\Gamma(n+1)=n!$</li>
+  <li>$\Gamma(\frac12)=\sqrt{\pi}$</li>
+</ul>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[定积分定义]]></summary></entry><entry><title type="html">符号网站</title><link href="https://wsttask.github.io/2024/03/29/%E7%AC%A6%E5%8F%B7%E7%BD%91%E7%AB%99.html" rel="alternate" type="text/html" title="符号网站" /><published>2024-03-29T18:39:21+08:00</published><updated>2024-03-29T18:39:21+08:00</updated><id>https://wsttask.github.io/2024/03/29/%E7%AC%A6%E5%8F%B7%E7%BD%91%E7%AB%99</id><content type="html" xml:base="https://wsttask.github.io/2024/03/29/%E7%AC%A6%E5%8F%B7%E7%BD%91%E7%AB%99.html"><![CDATA[<p><a href="https://symbl.cc/cn/">SYMBL (◕‿◕) 符号、Emoji、字符、脚本、字母表、象形文字和整个Unicode</a></p>
+
+<p><a href="https://symbl.cc/cn/tools/emoji-keyboard/">表情符号键盘: 复制和粘贴任何表情符号 🔥 (◕‿◕) SYMBL</a></p>
+
+<p><a href="https://www.iconfont.cn/">iconfont-阿里巴巴矢量图标库</a></p>
+
+<p><a href="https://www.flaticon.com/">Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS (flaticon.com)</a></p>
+
+<p>https://www.iconfinder.com/</p>
+
+<p><a href="https://fuhaoku.net/">特殊符号 最全好看的特殊符号大全 花样符号图案大全-符号库 (fuhaoku.net)</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[SYMBL (◕‿◕) 符号、Emoji、字符、脚本、字母表、象形文字和整个Unicode]]></summary></entry><entry><title type="html">第四章、不定积分</title><link href="https://wsttask.github.io/calculus/2024/03/29/4%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86.html" rel="alternate" type="text/html" title="第四章、不定积分" /><published>2024-03-29T18:34:16+08:00</published><updated>2024-03-29T18:34:16+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/29/4%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/29/4%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86.html"><![CDATA[<h3 id="原函数">原函数</h3>
+
+<p>​	<strong>定义4.1</strong>：在区间$I$上，如果存在可导函数 $F(x)$ ，使得 $F’(x)=f(x)$ 或 $dF(x)=f(x)dx$ ，则称函数 $F(x)$ 为 $f(x)$ 在区间$I$上的<strong>原函数</strong>。</p>
+
+<blockquote>
+  <p>原函数与导函数是相对的概念</p>
+</blockquote>
+
+<h5 id="原函数存在性">原函数存在性</h5>
+
+<ul>
+  <li>
+    <p>连续函数必有原函数</p>
+  </li>
+  <li>有第一类间断点的函数一定不存在原函数</li>
+  <li>有第二类间断点的函数可能有原函数</li>
+</ul>
+
+<p>simple:</p>
+
+<p>$F(x)=\left{\begin{matrix}
+  x^2\sin\frac{1}{x},&amp;x\ne 0 <br />
+  0,&amp;x=0
+\end{matrix}\right.$</p>
+
+<p>$f(x)=\left{\begin{matrix}
+  2x\sin\frac{1}{x}-\cos\frac{1}{x},&amp;x\ne 0 <br />
+  0,&amp;x=0
+\end{matrix}\right.$</p>
+
+<blockquote>
+  <p>$f(x)$ 有第二类间断点</p>
+</blockquote>
+
+<h3 id="不定积分">不定积分</h3>
+
+<p>​	设 $F(x)$ 为 $f(x)$ 的一个原函数，则 $f(x)$ 的所有原函数 $F(x)+C$ 称为 $f(x)$ 的不定积分，记为 $\int f(x)dx=F(x) +C$</p>
+
+<h5 id="不定积分运算性质">不定积分运算性质</h5>
+
+<ul>
+  <li>
+    <p>${\Large \int}[f(x)\pm g(x)]dx={\Large \int}f(x)dx\pm{\Large \int}g(x)dx$</p>
+  </li>
+  <li>
+    <p>${\Large\int}kf(x)dx=k{\Large\int}f(x)dx$</p>
+  </li>
+</ul>
+
+<h5 id="不定积分积分法">不定积分积分法</h5>
+
+<ul>
+  <li>第一类换元积分法（凑微分法）</li>
+  <li>第二类换元积分法</li>
+  <li>分部积分法
     <ul>
-      <li>数据保存到gitee</li>
-      <li>可以在线编辑，可同步</li>
+      <li>$\int udv=uv-\int vdu$</li>
     </ul>
   </li>
-  <li>fix
-    <ul>
-      <li>为gitee添加正则表达式的提交信息验证</li>
-      <li>这样stackEdit就无法更改web仓库的信息了</li>
-    </ul>
+</ul>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[原函数]]></summary></entry><entry><title type="html">第一章、一元函数的极限与连续</title><link href="https://wsttask.github.io/courses/math/calculus/1" rel="alternate" type="text/html" title="第一章、一元函数的极限与连续" /><published>2024-03-29T18:02:32+08:00</published><updated>2024-03-29T18:02:32+08:00</updated><id>https://wsttask.github.io/courses/math/calculus/1%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD</id><content type="html" xml:base="https://wsttask.github.io/courses/math/calculus/1"><![CDATA[<h3 id="数列极限与子数列的关系">数列极限与子数列的关系</h3>
+
+<p>定理：若 $\displaystyle\lim_{n\rightarrow\infty}x_n=a$，则${x_n}$ 的任意子数列${x_{n_k}}$ 也收敛，且 $\displaystyle\lim_{k\rightarrow\infty}x_{n_k}=a$</p>
+
+<blockquote>
+  <p>反之不一定成立，即子数列有极限不能推出原数列有极限</p>
+</blockquote>
+
+<h3 id="函数极限与数列极限的关系">函数极限与数列极限的关系</h3>
+
+<p>如果极限$\displaystyle\lim_{x\to x_0}f(x)$ 存在${x_n}$ 为函数 $f(x)$ 的定义域内任一收敛于 $x_0$ 的数列，且满足: $x_n\neq x_0(n\in\mathbb{Z}^+)$ 那么相应的函数值数列${f(x_n)}$必收敛，且$\displaystyle\lim_{n\to\infty}f(x_{n})=\displaystyle\lim_{x\to x_0}f(x)$</p>
+
+<h3 id="极限的定义">极限的定义</h3>
+
+<p>设 $f:\mathbb {D} \subset \mathbb {R} \rightarrow \mathbb {R}\displaystyle$ 是一个定义在实数上的函数。 并在某个开区间 $x&gt;A$ 或$x&lt;A$ 上有定义。 $L$ 是一个给定的实数。 $c$ 是一个实数，并且函数 $f$ 在 $c$ 的某个去心邻域上有定义。如果对任意的正实数 $\epsilon$  ，都存在一个正实数 $\delta$  ，使得对任意的实数 $x$ ，只要 $f$ 在点 $x$ 处有定义，并且 $x$ 在 $c$ 的某个 $\delta$  （去心）邻域中（即 $\mid x−c \mid ⩽δ$  ），就有$\mid f(x)−L \mid ⩽ \epsilon$  ，那么就称 $L$ 是函数 $f$ 在 $x$ 趋于 $c$ 时的极限，或简称 $L$ 为 $f$ 在 $c$ 的极限，记为 $\displaystyle \lim _{x\to c}f(x)=L$  。反之则称 $L$ 不是 $f$ 在 $x$ 趋于 $c$ 时的极限</p>
+
+<blockquote>
+  <p>极限为无穷，极限不存在</p>
+</blockquote>
+
+<h3 id="极限的性质">极限的性质</h3>
+
+<ol>
+  <li>
+    <p>唯一性：若极限存在，则极限一定唯一</p>
   </li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[我只用了网页版]]></summary></entry><entry><title type="html">第三章、一元函数微分学的应用</title><link href="https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="第三章、一元函数微分学的应用" /><published>2024-03-28T14:59:34+08:00</published><updated>2024-03-28T14:59:34+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8.html"><![CDATA[<h3 id="渐近线">渐近线</h3>
+  <li>
+    <p>保号性：设 $\displaystyle\lim_{x\rightarrow a}f(x)=A&gt;0\quad(或\quad A&lt;0)$ ，则存在 $\delta&gt;0$ ，当$0&lt;\mid x-a \mid&lt;\delta$ 时，有$f(x)&gt;0\quad (或 \quad f(x)&lt;0)$</p>
+  </li>
+  <li>
+    <p>有界性：</p>
+    <ol>
+      <li>
+        <p>数列极限的有界性</p>
+      </li>
+      <li>
+        <p>函数极限的局部有界性</p>
+      </li>
+    </ol>
+  </li>
+</ol>
 
-<h5 id="水平渐近线">水平渐近线</h5>
+<h5 id="font-color0a0极限的四则运算性质font">&lt;font color=#0a0&gt;极限的四则运算性质&lt;/font&gt;</h5>
 
-<p>若 $\displaystyle\lim_{x\to\infty}f(x)=A$  ，称 $y=A$ 为 $L:y=f(x)$ 的水平渐近线。</p>
+<p>设  $\displaystyle\lim f(x)=A,\, \lim g(x) = B$ ，则</p>
 
-<h5 id="铅直渐近线">铅直渐近线</h5>
+<ul>
+  <li>$\lim [f(x)\pm g(x)]=\lim f(x)\pm\lim g(x)$</li>
+  <li>$\lim f(x)g(x)=\lim f(x)\cdot\lim g(x)$</li>
+</ul>
 
-<p>若 $\displaystyle\lim_{x\to a}f(x)=\infty$ 或 $f(a-0)=\infty$ 或 $f(a+0)=\infty$ ，称 $x=a$ 为曲线 $y=f(x)$ 的铅直渐近线。</p>
+<blockquote>
+  <p>重要的是前提条件，即 $f(x),g(x)$ 极限存在才遵寻这个四则规律</p>
+</blockquote>
 
-<h5 id="斜渐近线">斜渐近线</h5>
+<h3 id="函数连续的定义">函数连续的定义</h3>
 
-<p>若 $\displaystyle\lim_{x\to\infty}\frac{f(x)}{x}=a\,(a\ne0,a\ne\infty)$ ， $\displaystyle\lim_{x\to\infty}[f(x)-ax]=b$ ，称 $y=ax+b$ 为曲线  $y=f(x)$ 的斜渐近线</p>
+<ul>
+  <li>
+    <p>若 $\displaystyle\lim_{x\to a}f(x)=f(a)$ 或 $f(a-0)=f(a+0)=f(a)$ ，称 $f(x)$ 在 $x=a$ 处连续</p>
+  </li>
+  <li>
+    <p>若函数满足</p>
+  </li>
+</ul>
 
-<p><code class="language-plaintext highlighter-rouge">铅直渐近线只存在于间断点</code></p>
+<ol>
+  <li>$f(x)$ 在 $(a,b)$ 内连续</li>
+  <li>$f(a)=f(a+0),f(b)=f(b-0)$</li>
+</ol>
 
-<p><code class="language-plaintext highlighter-rouge">水平渐近线只存在于无穷点</code></p>
+<p>称函数 $f(x)$ 在 $[a,b]$ 上连续，记为 $f(x)\in C[a,b]$</p>
+
+<h3 id="闭区间上连续函数的性质">闭区间上连续函数的性质</h3>
+
+<ol>
+  <li><strong>最值定理</strong>：若 $f(x) \in C[a,b]$ ，则 $f(x)$ 在 $[a,b]$ 上一定存在最大值和最小值</li>
+  <li><strong>有界定理</strong>：若 $f(x) \in C[a,b]$ ，则 $f(x)$ 在 $[a,b]$ 上一定有界</li>
+  <li><strong>零点定理</strong>：若 $f(x) \in C[a,b]$ ，且 $f(a)f(b)&lt;0$ ，则存在  $\xi \in(a,b)$ ，使得$f(\xi)=0$</li>
+  <li><strong>介值定理</strong>：若$f(x)\in C[a,b]$，对任意的 $\eta\in[m,M]$ ，其中$m,M$ 分别为 $f(x)$ 在 $[a,b]$ 上取到的最小值和最大值，则存在 $\xi\in[a,b]$，使得$f(\xi)=\eta$</li>
+  <li><strong>介值定理</strong>：设$a&lt;b$ ，$f:[a,b]\rightarrow R$ 是$[a,b]$ 上的连续函数，则对任意的 $\eta\in[f(a),f(b)]$ ，则存在 $\xi\in[a,b]$，使得$f(\xi)=\eta$</li>
+</ol>
+
+<h3 id="极限存在准则与两个重要极限">极限存在准则与两个重要极限</h3>
+
+<p>准则1：夹逼准则</p>
+
+<p>可推出第一个重要极限 $\displaystyle\lim_{x\rightarrow0}{\frac{sinx}{x}}=1$</p>
+
+<p>根据 $\frac12sinx&lt;\frac12x&lt;\frac12tanx$</p>
+
+<p>准则2：单调有界准则</p>
+
+<p>可推出第二个重要极限 $\displaystyle\lim_{x\rightarrow\infty}(1+\frac{1}{x})^x=e$</p>
+
+<p>放回抽样的没有被抽到的概率是$\frac1{e}$</p>
+
+<h3 id="复合函数的极限和连续">复合函数的极限和连续</h3>
+
+<ol>
+  <li>”复合“保持连续性</li>
+</ol>
+
+<p><b>假设 $v(x)$ 在 $p$ 连续，$v(y)$ 在 $v(p)$ 连续，则 $f(x)=u(v(x))$ 在 $p$ 连续</b></p>
+
+<ol>
+  <li>“复合”不能保持极限</li>
+</ol>
+
+<p>$lim_{x\rightarrow p}v(x)=a$，$lim_{x\rightarrow a}v(x)=b$ 不能推出 $\lim_{x\rightarrow p}u(v(x))=b$</p>
+
+<p>反例：</p>
+
+<p>$v(x)=0$，$u(x)= \begin{cases} \frac{sinx}{x}\quad x\ne0 \ 0 \quad x=0\end{cases}$</p>
+
+<p>必须多一个条件 $y=f[g(x)]$ 在 $x_0$ 的邻域内有意义，且在这个邻域内$g(x)\ne u_0$</p>
+
+<p><a href="https://www.zhihu.com/question/26162136/answer/1166944266">复合函数的极限中，后面的条件 g(x)≠u 为什么很重要？</a></p>
+
+<h3 id="间断点的定义与分类">间断点的定义与分类</h3>
+
+<p>函数 $f(x)$ 的不连续点称为间断点</p>
+
+<h5 id="间断点的产生原因">间断点的产生原因</h5>
+
+<ol>
+  <li>$f(x)$ 在 $x_0$ 处无定义</li>
+  <li>$f(x)$ 在 $x_0$ 处无极限</li>
+  <li>$f(x)$ 在 $x_0$ 的极限不等于 $f(a)$</li>
+</ol>
+
+<h5 id="间断点的分类">间断点的分类</h5>
+
+<ul>
+  <li><strong>可去间断点</strong>：函数在该点左极限、右极限存在且相等，但不等于该点函数值或函数在该点无定义。</li>
+  <li><strong>跳跃间断点</strong>：函数在该点左极限、右极限存在，但不相等。</li>
+  <li><strong>无穷间断点</strong>：函数在该点可以无定义，且左极限、右极限至少有一个不存在，且函数在该点极限为 $\infty$ 。</li>
+  <li><strong>震荡间断点</strong>：函数在该点可以无定义，当自变量趋于该点时，函数值在两个常数间变动无限多次。</li>
+</ul>
+
+<blockquote>
+  <p>可去间断点和跳跃间断点称为第一类间断点，也叫有限型间断点。其它间断点称为第二类间断点。</p>
+</blockquote>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[数列极限与子数列的关系]]></summary></entry><entry><title type="html">第三章、一元函数微分学的应用</title><link href="https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="第三章、一元函数微分学的应用" /><published>2024-03-28T20:54:07+08:00</published><updated>2024-03-28T20:54:07+08:00</updated><id>https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8</id><content type="html" xml:base="https://wsttask.github.io/calculus/2024/03/28/3%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8.html"><![CDATA[<h3 id="罗尔定理">罗尔定理</h3>
+
+<h3 id="拉格朗日中值定理">拉格朗日中值定理</h3>
+
+<h3 id="柯西中值定理">柯西中值定理</h3>
 
 <h3 id="泰勒中值定理的性质">泰勒中值定理的性质</h3>
 
-<font color="red">**泰勒中值定理是等式！**</font>
+<p>&lt;font color=#A00&gt;<strong>泰勒中值定理是等式！</strong>&lt;/font&gt;</p>
 
 <ul>
   <li>因此可以得出等价无穷小是可以进行代换的</li>
@@ -129,193 +473,97 @@
 
 <p>比如 $\int_{0}^{x^2}ln(1+t^2)dt \sim \frac13x^6$</p>
 
-<p>等式嘛，怎么样都可以，只是注意皮亚诺型余项</p>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[渐近线]]></summary></entry><entry><title type="html">Markown工具网</title><link href="https://wsttask.github.io/2024/03/28/markown%E5%B7%A5%E5%85%B7%E7%BD%91.html" rel="alternate" type="text/html" title="Markown工具网" /><published>2024-03-28T14:44:26+08:00</published><updated>2024-03-28T14:44:26+08:00</updated><id>https://wsttask.github.io/2024/03/28/markown%E5%B7%A5%E5%85%B7%E7%BD%91</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/markown%E5%B7%A5%E5%85%B7%E7%BD%91.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>[Markdown 相关工具 Markdown参考手册</td>
-      <td>Markdown指南中文版](https://www.markdown.xyz/tools/)</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name></name></author><summary type="html"><![CDATA[[Markdown 相关工具 Markdown参考手册 Markdown指南中文版](https://www.markdown.xyz/tools/)]]></summary></entry><entry><title type="html">Git全局配置文件的位置</title><link href="https://wsttask.github.io/2024/03/28/git%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE.html" rel="alternate" type="text/html" title="Git全局配置文件的位置" /><published>2024-03-28T14:36:07+08:00</published><updated>2024-03-28T14:36:07+08:00</updated><id>https://wsttask.github.io/2024/03/28/git%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/git%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE.html"><![CDATA[<p>全局配置文件通常在【C:\Users\Administrator.gitconfig】，Administrator不同电脑有所区别，例：<code class="language-plaintext highlighter-rouge">C:\Users\zhao-\.gitconfig</code>，这是我本机配置文件所在的位置</p>]]></content><author><name></name></author><summary type="html"><![CDATA[全局配置文件通常在【C:\Users\Administrator.gitconfig】，Administrator不同电脑有所区别，例：C:\Users\zhao-\.gitconfig，这是我本机配置文件所在的位置]]></summary></entry><entry><title type="html">Marktext</title><link href="https://wsttask.github.io/2024/03/28/marktext.html" rel="alternate" type="text/html" title="Marktext" /><published>2024-03-28T14:19:21+08:00</published><updated>2024-03-28T14:19:21+08:00</updated><id>https://wsttask.github.io/2024/03/28/marktext</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/marktext.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Typora</title><link href="https://wsttask.github.io/2024/03/28/typora.html" rel="alternate" type="text/html" title="Typora" /><published>2024-03-28T14:19:13+08:00</published><updated>2024-03-28T14:19:13+08:00</updated><id>https://wsttask.github.io/2024/03/28/typora</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/typora.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">word</title><link href="https://wsttask.github.io/word" rel="alternate" type="text/html" title="word" /><published>2024-03-28T14:07:37+08:00</published><updated>2024-03-28T14:07:37+08:00</updated><id>https://wsttask.github.io/word</id><content type="html" xml:base="https://wsttask.github.io/word"><![CDATA[<h1 id="tutorial"><a href="https://m.youdao.com/result?word=tutorial&amp;lang=en">tutorial</a></h1>
+<p>等式嘛，怎么样都可以，只是注意皮亚诺型余项</p>
 
-<h1 id="widget"><a href="https://m.youdao.com/result?word=widget&amp;lang=en">widget</a></h1>
+<h3 id="极值点">极值点</h3>
 
-<h1 id="reason"><a href="https://m.youdao.com/result?word=reason&amp;lang=en">reason</a></h1>
+<h5 id="极值点的概念">极值点的概念</h5>
 
-<h1 id="explore"><a href="https://m.youdao.com/result?word=explore&amp;lang=en">explore</a></h1>
+<p>​	设 $y=f(x)\,(x\in D),\,x_0\in D$ ，若存在 $\delta&gt;0$ ，当 $0&lt;\mid x-x_0\mid&lt;\delta$ 时，有 $f(x)&lt;f(x_0)$ ，则称 $x_0$ 为 $f(x)$ 的&lt;font color=#F00&gt;极大值点&lt;/font&gt;</p>
 
-<h1 id="handle"><a href="https://m.youdao.com/result?word=handle&amp;lang=en">handle</a></h1>
+<p>​	设 $y=f(x)\,(x\in D),\,x_0\in D$ ，若存在 $\delta&gt;0$ ，当 $0&lt;\mid x-x_0\mid&lt;\delta$ 时，有 $f(x)&gt;f(x_0)$ ，则称 $x_0$ 为 $f(x)$ 的&lt;font color=#0A0&gt;极小值点&lt;/font&gt;</p>
 
-<h1 id="problem"><a href="https://m.youdao.com/result?word=problem&amp;lang=en">problem</a></h1>
+<h5 id="极值点存在性">极值点存在性</h5>
 
-<h1 id="race"><a href="https://m.youdao.com/result?word=race&amp;lang=en">race</a></h1>
+<p><strong>结论1</strong>：设 $f(x)$ 在 $x=a$ 处取极值，则 $f’(a)=0$ 或 $f’(a)$ 不存在，反之不对。</p>
 
-<h1 id="fail"><a href="https://m.youdao.com/result?word=fail&amp;lang=en">fail</a></h1>
+<p><strong>结论2</strong>：设 $f(x)$ 可导且在 $x=a$ 处取极值，则 $f’(a)=0$</p>
 
-<h1 id="fell"><a href="https://m.youdao.com/result?word=fell&amp;lang=en">fell</a></h1>
+<h3 id="单调性">单调性</h3>
 
-<h1 id="curious"><a href="https://m.youdao.com/result?word=curious&amp;lang=en">curious</a></h1>
+<p>​	设函数 $y=f(x)$ 在 D 上有定义，若对任意的 $x_1,x_2\in D$ 且 $x_1&lt;x_2$ ，有 $f(x_1)&lt;f(x_2)$ ，称 $f(x)$ 在区域 D 上为&lt;font color=#a00&gt;严格的增函数&lt;/font&gt;。</p>
 
-<h1 id="economic"><a href="https://m.youdao.com/result?word=economic&amp;lang=en">economic</a></h1>
+<p>​	设函数 $y=f(x)$ 在 D 上有定义，若对任意的 $x_1,x_2\in D$ 且 $x_1&lt;x_2$ ，有 $f(x_1)&gt;f(x_2)$ ，称 $f(x)$ 在区域 D 上为&lt;font color=#0a0&gt;严格的减函数&lt;/font&gt;。</p>
 
-<h1 id="application"><a href="https://m.youdao.com/result?word=application&amp;lang=en">application</a></h1>
+<h5 id="单调性与导数">单调性与导数</h5>
 
-<h1 id="program"><a href="https://m.youdao.com/result?word=program&amp;lang=en">program</a></h1>
+<p><strong>（1）</strong>：若在区间 $I$ 内有 $f’(x)&gt;0$ ，则 $f(x)$ 在 $I$ 上严格增加，&lt;font color=#0af&gt;反之不对&lt;/font&gt;。</p>
 
-<h1 id="interpreter"><a href="https://m.youdao.com/result?word=interpreter&amp;lang=en">interpreter</a></h1>
+<p><strong>（2）</strong>：若在区间 $I$ 内有 $f’(x)&lt;0$ ，则 $f(x)$ 在 $I$ 上严格减少，反之不对。</p>
 
-<h1 id="school"><a href="https://m.youdao.com/result?word=school&amp;lang=en">school</a></h1>
+<h3 id="驻点">驻点</h3>
 
-<h1 id="configuration"><a href="https://m.youdao.com/result?word=configuration&amp;lang=en">configuration</a></h1>
+<p>​	一阶导数为0的点即驻点</p>
 
-<h1 id="click"><a href="https://m.youdao.com/result?word=click&amp;lang=en">click</a></h1>
-
-<h1 id="contact"><a href="https://m.youdao.com/result?word=contact&amp;lang=en">contact</a></h1>
-
-<h1 id="studio"><a href="https://m.youdao.com/result?word=studio&amp;lang=en">studio</a></h1>
-
-<h1 id="signal"><a href="https://m.youdao.com/result?word=signal&amp;lang=en">signal</a></h1>
-
-<h1 id="experience"><a href="https://m.youdao.com/result?word=experience&amp;lang=en">experience</a></h1>
-
-<h1 id="realize"><a href="https://m.youdao.com/result?word=realize&amp;lang=en">realize</a></h1>
-
-<h1 id="reality"><a href="https://m.youdao.com/result?word=reality&amp;lang=en">reality</a></h1>]]></content><author><name></name></author><category term="A_word" /><summary type="html"><![CDATA[tutorial]]></summary></entry><entry><title type="html">不同数据容器的特点</title><link href="https://wsttask.github.io/2024/03/27/%E4%B8%8D%E5%90%8C%E6%95%B0%E6%8D%AE%E5%AE%B9%E5%99%A8%E7%9A%84%E7%89%B9%E7%82%B9.html" rel="alternate" type="text/html" title="不同数据容器的特点" /><published>2024-03-27T17:42:30+08:00</published><updated>2024-03-27T17:42:30+08:00</updated><id>https://wsttask.github.io/2024/03/27/%E4%B8%8D%E5%90%8C%E6%95%B0%E6%8D%AE%E5%AE%B9%E5%99%A8%E7%9A%84%E7%89%B9%E7%82%B9</id><content type="html" xml:base="https://wsttask.github.io/2024/03/27/%E4%B8%8D%E5%90%8C%E6%95%B0%E6%8D%AE%E5%AE%B9%E5%99%A8%E7%9A%84%E7%89%B9%E7%82%B9.html"><![CDATA[<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-</span> <span class="n">元组</span><span class="err">：</span><span class="p">()</span>
-<span class="c1"># 定义元组字面量
-</span><span class="p">(</span><span class="n">元素</span><span class="err">，</span><span class="n">元素</span><span class="err">，</span><span class="p">......</span><span class="err">，</span><span class="n">元素</span><span class="p">)</span>
-
-<span class="c1"># 定义元组变量
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="p">(</span><span class="n">元素</span><span class="p">,</span><span class="n">元素</span><span class="p">,.....,</span><span class="n">元素</span><span class="p">)</span>
-
-<span class="c1"># 定义空元组
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="p">()</span>        <span class="c1"># 方式1
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="nf">tuple</span><span class="p">()</span>     <span class="c1"># 方式2
-</span>
-<span class="o">-</span> <span class="n">集合</span><span class="err">：</span><span class="p">{}</span>
-<span class="c1"># 定义集合字面量
-</span><span class="p">{</span><span class="n">元素</span><span class="p">,</span> <span class="n">元素</span><span class="p">,</span> <span class="p">......,</span> <span class="n">元素</span><span class="p">}</span>
-
-<span class="c1"># 定义集合变量
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="p">{</span><span class="n">元素</span><span class="p">,</span> <span class="n">元素</span><span class="p">,</span> <span class="p">......,</span> <span class="n">元素</span><span class="p">}</span>
-
-<span class="c1"># 定义空集合
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="nf">set</span><span class="p">()</span>
-
-<span class="o">-</span> <span class="n">列表</span><span class="err">：</span><span class="p">[]</span>
-<span class="c1"># 字面量
-</span><span class="p">[</span><span class="n">元素1</span><span class="p">,</span> <span class="n">元素2</span><span class="p">,</span> <span class="n">元素3</span><span class="p">,</span> <span class="n">元素4</span><span class="p">,</span> <span class="p">...]</span>
-
-<span class="c1"># 定义变量
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="p">[</span><span class="n">元素1</span><span class="p">,</span> <span class="n">元素2</span><span class="p">,</span> <span class="n">元素3</span><span class="p">,</span> <span class="n">元素4</span><span class="p">,</span> <span class="p">...]</span>
-
-<span class="c1"># 定义空列表
-</span><span class="n">变量名称</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">变量名称</span> <span class="o">=</span> <span class="nf">list</span><span class="p">()</span>
-
-<span class="o">-</span> <span class="n">字典</span>
-<span class="c1"># 定义字典字面量
-</span><span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="p">...,</span> <span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">}</span>
-
-<span class="c1"># 定义字典变量
-</span><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="p">...,</span> <span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">}</span>
-
-<span class="c1"># 定义空字典
-</span><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{}</span>    <span class="c1"># 空字典定义方式1
-</span><span class="n">my_dict</span> <span class="o">=</span> <span class="nf">dict</span><span class="p">()</span><span class="c1"># 空字典定义方式2
-</span></code></pre></div></div>
-
-<p>数据容器可以从以下视角进行简单的分类：</p>
+<h5 id="驻点和极值点的关系">驻点和极值点的关系</h5>
 
 <ul>
-  <li>是否支持下标索引
-    <ul>
-      <li>支持：列表、元组、字符串 - <strong>序列类型</strong></li>
-      <li>不支持：集合、字典 - <strong>非序列类型</strong></li>
-    </ul>
-  </li>
-  <li>是否支持重复元素：
-    <ul>
-      <li>支持：列表、元组、字符串 - <strong>序列类型</strong></li>
-      <li>不支持：集合、字典 - <strong>非序列类型</strong></li>
-    </ul>
-  </li>
-  <li>是否可以修改
-    <ul>
-      <li>支持：列表、集合、字典</li>
-      <li>不支持：元组、字符串</li>
-    </ul>
-  </li>
+  <li>驻点不一定是极值点，极值点也不一定是驻点</li>
+  <li>极值点存在于驻点或不可导点</li>
 </ul>
 
-<table>
-  <thead>
-    <tr>
-      <th><strong>数据容器/特点</strong></th>
-      <th><strong>列表</strong></th>
-      <th><strong>元组</strong></th>
-      <th style="text-align: left"><strong>字符串</strong></th>
-      <th><strong>集合</strong></th>
-      <th><strong>字典</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>元素数量</td>
-      <td>支持多个</td>
-      <td>支持多个</td>
-      <td style="text-align: left">支持多个</td>
-      <td>支持多个</td>
-      <td>支持多个</td>
-    </tr>
-    <tr>
-      <td>元素类型</td>
-      <td>任意</td>
-      <td>任意</td>
-      <td style="text-align: left">仅字符</td>
-      <td>任意</td>
-      <td>Key非字典</td>
-    </tr>
-    <tr>
-      <td>下标索引</td>
-      <td>支持</td>
-      <td>支持</td>
-      <td style="text-align: left">支持</td>
-      <td>不支持</td>
-      <td>不支持</td>
-    </tr>
-    <tr>
-      <td>重复元素</td>
-      <td>支持</td>
-      <td>支持</td>
-      <td style="text-align: left">支持</td>
-      <td>不支持</td>
-      <td>不支持</td>
-    </tr>
-    <tr>
-      <td>可修改性</td>
-      <td>支持</td>
-      <td>不支持</td>
-      <td style="text-align: left">不支持</td>
-      <td>支持</td>
-      <td>支持</td>
-    </tr>
-    <tr>
-      <td>数据有序</td>
-      <td>是</td>
-      <td>是</td>
-      <td style="text-align: left">是</td>
-      <td>否</td>
-      <td>否</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="凹凸性与拐点">凹凸性与拐点</h3>
 
-<p>基于各类数据容器的特点，它们的应用场景如下：</p>
+<h5 id="凹凸性的概念">凹凸性的概念</h5>
+
+<p>​	设 $y=f(x)$ 定义于区间 $I$ 上，若对任意的 $x_1,x_2\in I$ 且 $x_1\ne x_2$ 有 ${\large f(\frac{x_1+x_2}{2})&gt;\frac{f(x_1)+f(x_2)}{2}}$ ，则称 $y=f(x)$ 在 $I$ 上为&lt;font color=#0a0&gt;凸函数&lt;/font&gt;。</p>
+
+<h5 id="拐点">拐点</h5>
+
+<p>​	设 $y=f(x)$ 定义于区间 $I$ 上，若 $f(x)$ 在 $x=x_0$ 两侧凹凸性不同，称 $(x_0,f(x_0))$ 为曲线 $y=f(x)$ 的&lt;font color=#0a0&gt;拐点&lt;/font&gt;</p>
+
+<h5 id="凹凸性于拐点的判断方法充分不必要">凹凸性于拐点的判断方法（充分不必要）</h5>
+
+<p>​	<strong>定理1：</strong>若当 $x\in I$ 时， $f’‘(x)&gt;0$ （个别点除外），则 $y=f(x)$ 在 $I$ 内为凹函数；若当 $x\in I$ 时， $f’‘(x)&lt;0$ （个别点除外 ），则 $y=f(x)$ 在 $I$ 内为&lt;font color=#a00&gt;凸函数&lt;/font&gt;。</p>
+
+<p>​	<strong>定理2：</strong>设 $f(x)$ 三阶可导，且 $f’‘(x_0)=0$，但 $f’’‘(x)\ne0$，则 $(x_0,f(x_0))$ 为曲线 $f(x)$ 上的&lt;font color=#0a0&gt;拐点&lt;/font&gt;。</p>
+
+<h3 id="渐近线">渐近线</h3>
+
+<h5 id="水平渐近线">水平渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to\infty}f(x)=A$  ，称 $y=A$ 为 $L:y=f(x)$ 的水平渐近线。</p>
+
+<h5 id="铅直渐近线">铅直渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to a}f(x)=\infty$ 或 $f(a-0)=\infty$ 或 $f(a+0)=\infty$ ，称 $x=a$ 为曲线 $y=f(x)$ 的铅直渐近线。</p>
+
+<h5 id="斜渐近线">斜渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to\infty}\frac{f(x)}{x}=a\,(a\ne0,a\ne\infty)$ ， $\displaystyle\lim_{x\to\infty}[f(x)-ax]=b$ ，称 $y=ax+b$ 为曲线  $y=f(x)$ 的斜渐近线</p>
+
+<p><code class="language-plaintext highlighter-rouge">铅直渐近线只存在于间断点</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">水平渐近线只存在于无穷点</code></p>
+
+<p>test</p>]]></content><author><name></name></author><category term="calculus" /><summary type="html"><![CDATA[罗尔定理]]></summary></entry><entry><title type="html">Stackedit</title><link href="https://wsttask.github.io/2024/03/28/stackEdit.html" rel="alternate" type="text/html" title="Stackedit" /><published>2024-03-28T16:29:22+08:00</published><updated>2024-03-28T16:29:22+08:00</updated><id>https://wsttask.github.io/2024/03/28/stackEdit</id><content type="html" xml:base="https://wsttask.github.io/2024/03/28/stackEdit.html"><![CDATA[<p>我只用了网页版</p>
 
 <ul>
-  <li>列表：一批数据，可修改、可重复的存储场景</li>
-  <li>元组：一批数据，不可修改、可重复的存储场景</li>
-  <li>字符串：一串字符串的存储场景</li>
-  <li>集合：一批数据，去重存储场景</li>
-  <li>字典：一批数据，可用Key检索Value的存储场景</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[```python 元组：() 定义元组字面量 (元素，元素，……，元素)]]></summary></entry></feed>
+  <li>advantage
+    <ul>
+      <li>数据保存到gitee</li>
+      <li>可以在线编辑，可同步</li>
+    </ul>
+  </li>
+  <li>fix
+    <ul>
+      <li>为gitee添加正则表达式的提交信息验证
+        <ul>
+          <li>这样stackEdit就无法更改web仓库的信息了</li>
+        </ul>
+      </li>
+      <li>更改配置，调整自动同步时间，这样就不会发生崩溃了</li>
+      <li>不需要同步，如果要更新的话，直接从历史版本中获得最新的就可以了</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[我只用了网页版]]></summary></entry></feed>

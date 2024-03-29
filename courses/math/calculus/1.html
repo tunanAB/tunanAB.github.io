@@ -54,7 +54,7 @@
                 」
             </div>
             <div class="char-counter">
-              2024-03-19 1942字
+              2024-03-29 2607字
             </div>
             <div class="content">
                 <h3 id="数列极限与子数列的关系">数列极限与子数列的关系</h3>
@@ -71,7 +71,7 @@
 
 <h3 id="极限的定义">极限的定义</h3>
 
-<p><strong>设</strong> $f:\mathbb {D} \subset \mathbb {R} \rightarrow \mathbb {R}\displaystyle$ <strong>是一个定义在实数上的函数。 并在某个开区间</strong> $x&gt;A$ <strong>或</strong>$x&lt;A$ <strong>上有定义。</strong> $L$ <strong>是一个给定的实数。</strong> $c$ <strong>是一个实数，并且函数</strong> $f$ <strong>在</strong> $c$ <strong>的某个去心邻域上有定义。如果对任意的正实数</strong> $\epsilon$  <strong>，都存在一个正实数</strong> $\delta$  <strong>，使得对任意的实数</strong> $x$ <strong>，只要</strong> $f$ <strong>在点</strong> $x$ <strong>处有定义，并且</strong> $x$ <strong>在</strong> $c$ <strong>的某个</strong> $\delta$  <strong>（去心）邻域中（即</strong> $\mid x−c \mid ⩽δ$  <strong>），就有</strong>$\mid f(x)−L \mid ⩽ \epsilon$  <strong>，那么就称</strong> $L$ <strong>是函数</strong> $f$ <strong>在</strong> $x$ <strong>趋于</strong> $c$ <strong>时的极限，或简称</strong> $L$ <strong>为</strong> $f$ <strong>在</strong> $c$ <strong>的极限，记为</strong> $\displaystyle \lim _{x\to c}f(x)=L$  <strong>。反之则称</strong> $L$ <strong>不是</strong> $f$ <strong>在</strong> $x$ <strong>趋于</strong> $c$ <strong>时的极限</strong></p>
+<p>设 $f:\mathbb {D} \subset \mathbb {R} \rightarrow \mathbb {R}\displaystyle$ 是一个定义在实数上的函数。 并在某个开区间 $x&gt;A$ 或$x&lt;A$ 上有定义。 $L$ 是一个给定的实数。 $c$ 是一个实数，并且函数 $f$ 在 $c$ 的某个去心邻域上有定义。如果对任意的正实数 $\epsilon$  ，都存在一个正实数 $\delta$  ，使得对任意的实数 $x$ ，只要 $f$ 在点 $x$ 处有定义，并且 $x$ 在 $c$ 的某个 $\delta$  （去心）邻域中（即 $\mid x−c \mid ⩽δ$  ），就有$\mid f(x)−L \mid ⩽ \epsilon$  ，那么就称 $L$ 是函数 $f$ 在 $x$ 趋于 $c$ 时的极限，或简称 $L$ 为 $f$ 在 $c$ 的极限，记为 $\displaystyle \lim _{x\to c}f(x)=L$  。反之则称 $L$ 不是 $f$ 在 $x$ 趋于 $c$ 时的极限</p>
 
 <blockquote>
   <p>极限为无穷，极限不存在</p>
@@ -81,23 +81,54 @@
 
 <ol>
   <li>
-    <p><strong>唯一性</strong>：若极限存在，则极限一定唯一</p>
+    <p>唯一性：若极限存在，则极限一定唯一</p>
   </li>
   <li>
-    <p><strong>保号性</strong>：设 $\displaystyle\lim_{x\rightarrow a}f(x)=A&gt;0\quad(或\quad A&lt;0)$ ，则存在 $\delta&gt;0$ ，当$0&lt;\mid x-a \mid&lt;\delta$ 时，有$f(x)&gt;0\quad (或 \quad f(x)&lt;0)$</p>
+    <p>保号性：设 $\displaystyle\lim_{x\rightarrow a}f(x)=A&gt;0\quad(或\quad A&lt;0)$ ，则存在 $\delta&gt;0$ ，当$0&lt;\mid x-a \mid&lt;\delta$ 时，有$f(x)&gt;0\quad (或 \quad f(x)&lt;0)$</p>
   </li>
   <li>
-    <p><strong>有界性</strong>：</p>
+    <p>有界性：</p>
     <ol>
       <li>
-        <p><strong>数列极限的有界性</strong></p>
+        <p>数列极限的有界性</p>
       </li>
       <li>
-        <p><strong>函数极限的局部有界性</strong></p>
+        <p>函数极限的局部有界性</p>
       </li>
     </ol>
   </li>
 </ol>
+
+<h5 id="font-color0a0极限的四则运算性质font">&lt;font color=#0a0&gt;极限的四则运算性质&lt;/font&gt;</h5>
+
+<p>设  $\displaystyle\lim f(x)=A,\, \lim g(x) = B$ ，则</p>
+
+<ul>
+  <li>$\lim [f(x)\pm g(x)]=\lim f(x)\pm\lim g(x)$</li>
+  <li>$\lim f(x)g(x)=\lim f(x)\cdot\lim g(x)$</li>
+</ul>
+
+<blockquote>
+  <p>重要的是前提条件，即 $f(x),g(x)$ 极限存在才遵寻这个四则规律</p>
+</blockquote>
+
+<h3 id="函数连续的定义">函数连续的定义</h3>
+
+<ul>
+  <li>
+    <p>若 $\displaystyle\lim_{x\to a}f(x)=f(a)$ 或 $f(a-0)=f(a+0)=f(a)$ ，称 $f(x)$ 在 $x=a$ 处连续</p>
+  </li>
+  <li>
+    <p>若函数满足</p>
+  </li>
+</ul>
+
+<ol>
+  <li>$f(x)$ 在 $(a,b)$ 内连续</li>
+  <li>$f(a)=f(a+0),f(b)=f(b-0)$</li>
+</ol>
+
+<p>称函数 $f(x)$ 在 $[a,b]$ 上连续，记为 $f(x)\in C[a,b]$</p>
 
 <h3 id="闭区间上连续函数的性质">闭区间上连续函数的性质</h3>
 
@@ -144,6 +175,31 @@
 <p>必须多一个条件 $y=f[g(x)]$ 在 $x_0$ 的邻域内有意义，且在这个邻域内$g(x)\ne u_0$</p>
 
 <p><a href="https://www.zhihu.com/question/26162136/answer/1166944266">复合函数的极限中，后面的条件 g(x)≠u 为什么很重要？</a></p>
+
+<h3 id="间断点的定义与分类">间断点的定义与分类</h3>
+
+<p>函数 $f(x)$ 的不连续点称为间断点</p>
+
+<h5 id="间断点的产生原因">间断点的产生原因</h5>
+
+<ol>
+  <li>$f(x)$ 在 $x_0$ 处无定义</li>
+  <li>$f(x)$ 在 $x_0$ 处无极限</li>
+  <li>$f(x)$ 在 $x_0$ 的极限不等于 $f(a)$</li>
+</ol>
+
+<h5 id="间断点的分类">间断点的分类</h5>
+
+<ul>
+  <li><strong>可去间断点</strong>：函数在该点左极限、右极限存在且相等，但不等于该点函数值或函数在该点无定义。</li>
+  <li><strong>跳跃间断点</strong>：函数在该点左极限、右极限存在，但不相等。</li>
+  <li><strong>无穷间断点</strong>：函数在该点可以无定义，且左极限、右极限至少有一个不存在，且函数在该点极限为 $\infty$ 。</li>
+  <li><strong>震荡间断点</strong>：函数在该点可以无定义，当自变量趋于该点时，函数值在两个常数间变动无限多次。</li>
+</ul>
+
+<blockquote>
+  <p>可去间断点和跳跃间断点称为第一类间断点，也叫有限型间断点。其它间断点称为第二类间断点。</p>
+</blockquote>
 
             </div>
         </div>

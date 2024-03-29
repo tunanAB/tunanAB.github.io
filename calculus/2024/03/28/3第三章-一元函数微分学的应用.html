@@ -54,30 +54,18 @@
                 」
             </div>
             <div class="char-counter">
-              2024-03-28 540字
+              2024-03-28 2014字
             </div>
             <div class="content">
-                <h3 id="渐近线">渐近线</h3>
+                <h3 id="罗尔定理">罗尔定理</h3>
 
-<h5 id="水平渐近线">水平渐近线</h5>
+<h3 id="拉格朗日中值定理">拉格朗日中值定理</h3>
 
-<p>若 $\displaystyle\lim_{x\to\infty}f(x)=A$  ，称 $y=A$ 为 $L:y=f(x)$ 的水平渐近线。</p>
-
-<h5 id="铅直渐近线">铅直渐近线</h5>
-
-<p>若 $\displaystyle\lim_{x\to a}f(x)=\infty$ 或 $f(a-0)=\infty$ 或 $f(a+0)=\infty$ ，称 $x=a$ 为曲线 $y=f(x)$ 的铅直渐近线。</p>
-
-<h5 id="斜渐近线">斜渐近线</h5>
-
-<p>若 $\displaystyle\lim_{x\to\infty}\frac{f(x)}{x}=a\,(a\ne0,a\ne\infty)$ ， $\displaystyle\lim_{x\to\infty}[f(x)-ax]=b$ ，称 $y=ax+b$ 为曲线  $y=f(x)$ 的斜渐近线</p>
-
-<p><code class="language-plaintext highlighter-rouge">铅直渐近线只存在于间断点</code></p>
-
-<p><code class="language-plaintext highlighter-rouge">水平渐近线只存在于无穷点</code></p>
+<h3 id="柯西中值定理">柯西中值定理</h3>
 
 <h3 id="泰勒中值定理的性质">泰勒中值定理的性质</h3>
 
-<font color="red">**泰勒中值定理是等式！**</font>
+<p>&lt;font color=#A00&gt;<strong>泰勒中值定理是等式！</strong>&lt;/font&gt;</p>
 
 <ul>
   <li>因此可以得出等价无穷小是可以进行代换的</li>
@@ -95,6 +83,78 @@
 
 <p>等式嘛，怎么样都可以，只是注意皮亚诺型余项</p>
 
+<h3 id="极值点">极值点</h3>
+
+<h5 id="极值点的概念">极值点的概念</h5>
+
+<p>​	设 $y=f(x)\,(x\in D),\,x_0\in D$ ，若存在 $\delta&gt;0$ ，当 $0&lt;\mid x-x_0\mid&lt;\delta$ 时，有 $f(x)&lt;f(x_0)$ ，则称 $x_0$ 为 $f(x)$ 的&lt;font color=#F00&gt;极大值点&lt;/font&gt;</p>
+
+<p>​	设 $y=f(x)\,(x\in D),\,x_0\in D$ ，若存在 $\delta&gt;0$ ，当 $0&lt;\mid x-x_0\mid&lt;\delta$ 时，有 $f(x)&gt;f(x_0)$ ，则称 $x_0$ 为 $f(x)$ 的&lt;font color=#0A0&gt;极小值点&lt;/font&gt;</p>
+
+<h5 id="极值点存在性">极值点存在性</h5>
+
+<p><strong>结论1</strong>：设 $f(x)$ 在 $x=a$ 处取极值，则 $f’(a)=0$ 或 $f’(a)$ 不存在，反之不对。</p>
+
+<p><strong>结论2</strong>：设 $f(x)$ 可导且在 $x=a$ 处取极值，则 $f’(a)=0$</p>
+
+<h3 id="单调性">单调性</h3>
+
+<p>​	设函数 $y=f(x)$ 在 D 上有定义，若对任意的 $x_1,x_2\in D$ 且 $x_1&lt;x_2$ ，有 $f(x_1)&lt;f(x_2)$ ，称 $f(x)$ 在区域 D 上为&lt;font color=#a00&gt;严格的增函数&lt;/font&gt;。</p>
+
+<p>​	设函数 $y=f(x)$ 在 D 上有定义，若对任意的 $x_1,x_2\in D$ 且 $x_1&lt;x_2$ ，有 $f(x_1)&gt;f(x_2)$ ，称 $f(x)$ 在区域 D 上为&lt;font color=#0a0&gt;严格的减函数&lt;/font&gt;。</p>
+
+<h5 id="单调性与导数">单调性与导数</h5>
+
+<p><strong>（1）</strong>：若在区间 $I$ 内有 $f’(x)&gt;0$ ，则 $f(x)$ 在 $I$ 上严格增加，&lt;font color=#0af&gt;反之不对&lt;/font&gt;。</p>
+
+<p><strong>（2）</strong>：若在区间 $I$ 内有 $f’(x)&lt;0$ ，则 $f(x)$ 在 $I$ 上严格减少，反之不对。</p>
+
+<h3 id="驻点">驻点</h3>
+
+<p>​	一阶导数为0的点即驻点</p>
+
+<h5 id="驻点和极值点的关系">驻点和极值点的关系</h5>
+
+<ul>
+  <li>驻点不一定是极值点，极值点也不一定是驻点</li>
+  <li>极值点存在于驻点或不可导点</li>
+</ul>
+
+<h3 id="凹凸性与拐点">凹凸性与拐点</h3>
+
+<h5 id="凹凸性的概念">凹凸性的概念</h5>
+
+<p>​	设 $y=f(x)$ 定义于区间 $I$ 上，若对任意的 $x_1,x_2\in I$ 且 $x_1\ne x_2$ 有 ${\large f(\frac{x_1+x_2}{2})&gt;\frac{f(x_1)+f(x_2)}{2}}$ ，则称 $y=f(x)$ 在 $I$ 上为&lt;font color=#0a0&gt;凸函数&lt;/font&gt;。</p>
+
+<h5 id="拐点">拐点</h5>
+
+<p>​	设 $y=f(x)$ 定义于区间 $I$ 上，若 $f(x)$ 在 $x=x_0$ 两侧凹凸性不同，称 $(x_0,f(x_0))$ 为曲线 $y=f(x)$ 的&lt;font color=#0a0&gt;拐点&lt;/font&gt;</p>
+
+<h5 id="凹凸性于拐点的判断方法充分不必要">凹凸性于拐点的判断方法（充分不必要）</h5>
+
+<p>​	<strong>定理1：</strong>若当 $x\in I$ 时， $f’‘(x)&gt;0$ （个别点除外），则 $y=f(x)$ 在 $I$ 内为凹函数；若当 $x\in I$ 时， $f’‘(x)&lt;0$ （个别点除外 ），则 $y=f(x)$ 在 $I$ 内为&lt;font color=#a00&gt;凸函数&lt;/font&gt;。</p>
+
+<p>​	<strong>定理2：</strong>设 $f(x)$ 三阶可导，且 $f’‘(x_0)=0$，但 $f’’‘(x)\ne0$，则 $(x_0,f(x_0))$ 为曲线 $f(x)$ 上的&lt;font color=#0a0&gt;拐点&lt;/font&gt;。</p>
+
+<h3 id="渐近线">渐近线</h3>
+
+<h5 id="水平渐近线">水平渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to\infty}f(x)=A$  ，称 $y=A$ 为 $L:y=f(x)$ 的水平渐近线。</p>
+
+<h5 id="铅直渐近线">铅直渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to a}f(x)=\infty$ 或 $f(a-0)=\infty$ 或 $f(a+0)=\infty$ ，称 $x=a$ 为曲线 $y=f(x)$ 的铅直渐近线。</p>
+
+<h5 id="斜渐近线">斜渐近线</h5>
+
+<p>​	若 $\displaystyle\lim_{x\to\infty}\frac{f(x)}{x}=a\,(a\ne0,a\ne\infty)$ ， $\displaystyle\lim_{x\to\infty}[f(x)-ax]=b$ ，称 $y=ax+b$ 为曲线  $y=f(x)$ 的斜渐近线</p>
+
+<p><code class="language-plaintext highlighter-rouge">铅直渐近线只存在于间断点</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">水平渐近线只存在于无穷点</code></p>
+
+<p>test</p>
 
             </div>
         </div>
